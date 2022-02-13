@@ -20,30 +20,94 @@
     .centered-flex {
         flex-flow: "column";
     }
+
+    .green {
+        background-color: #3FA33F !important;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .btn-block {
+        display: block;
+        width: 100%;
+    }
 </style>
 
-
 <html>
-    <body>
-        <div class="container">
-            <div class="centered row">
-                <div class="col-md-4">
-                    <img src="Images\DownLogoGreen.png">
+
+<body>
+    <div class="container">
+        <div class="centered row">
+            <div class="col-md-12">
+                <img src="Images\DownLogoGreen.png" style="max-height: 450px;">
+            </div>
+            <div class="col-md-12" style="display: flex; align-items: center; margin-bottom: 20px">
+                <div class="col-md-12">
+                    <p class="centered-flex" style="font-size: 100px">Are you Down?</p>
                 </div>
-                <div class="col-md-8" style="display: flex; align-items: center;">
-                    <div class="col-12">
-                        <p class="h1 centered-flex" style="margin-top: 20px">Are you Down?</p>
-                        <p class="h4 centered-flex" style="margin-top: 10px">Down is an application made for the Hackathon event that allows the user to create and join events around their area.</p>
-                        <p>We envision a world where people are free and happy to go outside and experience nature again. In order to achieve that, we created this application that will help communities get together outside of company events and play sports, go hiking, do yoga, or anything else that you may want to do in a group setting outside. We hope that with this encouragement, people will feel safe again.</p>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Images/DownLogoGreenBackground.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-title h1">About Us</p>
+                        <p class="card-text h5">We are 4 developers who have worked together making websites but also
+                            envision a world where people are free and happy to go outside and experience nature again.
+                            In order to achieve that, we created this application that will help communities get
+                            together outside of company events and play sports, go hiking, do yoga, or anything else
+                            that you may want to do in a group setting outside. We hope that with this encouragement,
+                            people will feel safe again. *insert our 'brand'?*</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 row"  style="background-color: #3FA33F">
-                <div class="col-md-6 centered"><p>You can see events in your location or across the country. *insert picture of the map in two areas*</p></div>
-                <div class="col-md-6 centered"><p>Go outside, have some fun! * insert picture of user's images in list* </p></div>
-                <div class="col-md-6 centered"><p></p></div>
-                <div class="col-md-6 centered"><p></p></div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-title h1">Find Events Anywhere, Anytime</p>
+                        <p class="card-text h5">You can see events in your location or across the country. *insert picture of the map in two areas*</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="Images/DownLogoGreenBackground.png" class="img-fluid rounded-start" alt="...">
+                </div>
             </div>
         </div>
-    </body>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="Images/DownLogoGreenBackground.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-title h1">Meet new people</p>
+                        <p class="card-text h5">Go outside, have some fun! * insert picture of user's images in list*</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3">
+            <div class="row g-0">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <p class="card-title h1">Ready to Try?</p>
+                        <p class="card-text h5">You can download our free application below</p>
+                        <a class="btn btn-success btn-lg btn-block">Visit our Github</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="Images/DownLogoGreenBackground.png" class="img-fluid rounded-start" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
